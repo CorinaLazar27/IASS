@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ProjectIASS.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Proiect IASS ASP.NET</title>
+    <link href="css/my.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="my.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 660px">
+    <header id="header">
+        <h1>Proiect IASS</h1>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li>&nbsp;<a href="WebForm2.aspx">Acasa</a></li>
+            <li><a href="#">Despre</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="con">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    
+</body>
+</html>
