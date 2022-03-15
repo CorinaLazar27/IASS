@@ -11,7 +11,7 @@ namespace ProjectIASS
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-JN36OI3\\MSSQLSERVER01;Initial Catalog=IASS;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=LAPTOP-PF9DAIU5\\SQLEXPRESS;Initial Catalog=master;Integrated Security=True;");
         SqlCommand cmd;
         SqlDataReader dr;
         protected void Page_Load(object sender, EventArgs e)
