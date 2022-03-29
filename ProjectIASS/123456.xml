@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Farmacie>
+  <Pacienti>
+    <nume>Ham</nume>
+    <prenume>Atila</prenume>
+    <diagnostic>Otita</diagnostic>
+    <email>hamatila7@gmail.com</email>
+  </Pacienti>
+  <Reteta>
+    <medicament>paracetamol</medicament>
+    <indicatii>apa</indicatii>
+  </Reteta>
+</Farmacie>
