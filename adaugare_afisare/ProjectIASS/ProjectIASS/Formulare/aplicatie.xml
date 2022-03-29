@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chestionar>
+<textbox nume="data" detalii="Data completarii"/>
+<radio nume="multumit" detalii="Pe o scara de la 1 la 5 cat de multumit/a sunteti de aceasta aplicatie?">
+<val>1</val>
+<val>2</val>
+<val>3</val>
+<val>4</val>
+<val></val>
+</radio>
+
+<radio nume="probleme" detalii="De cate ori ati avut probleme cu aplicatia astazi?">
+<val>0</val>
+<val>1-10</val>
+<val>10-30</val>
+<val>Mai multe</val>
+</radio>
+
+<textbox nume="inmbunatatiri" detalii="Ce imbunatatiri credeti ca am putea face aplicatiei?"/>
+
+
+</Chestionar>
