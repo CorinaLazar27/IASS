@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Chestionar>
+<textbox nume="data" detalii="Data completarii"/>
+<radio nume="clienti" detalii="Cati clienti ati avut astazi?">
+<val>10-50</val>
+<val>50-100</val>
+<val>100-200</val>
+<val>Mai multi</val>
+</radio>
+
+<radio nume="oravarf" detalii="Care au fost orele in care ati avut cei mai multi clienti?">
+<val>08-11</val>
+<val>11-13</val>
+<val>13-16</val>
+<val>16-20</val>
+</radio>
+
+<radio nume="orajoasa" detalii="Care au fost orele in care ati avut cei mai putini clienti?">
+<val>08-11</val>
+<val>11-13</val>
+<val>13-16</val>
+<val>16-20</val>
+</radio>
+
+
+<radio nume="categorie" detalii="Care a fost cea mai frecventa categorie de medicamente cumparate?">
+<val>Parafarmateutice</val>
+<val>Suplimente alimentare</val>
+<val>OTC</val>
+<val>RX</val>
+</radio>
+
+<radio nume="incidente" detalii="Cate incidente ati avut astazi?">
+<val>0</val>
+<val>1-10</val>
+<val>10-30</val>
+<val>Mai multe</val>
+</radio>
+
+
+
+</Chestionar>
